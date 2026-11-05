@@ -12,7 +12,7 @@ Tác giả: Nguyen Minh Tung.
 - Mở thư mục gốc dự án trong VS Code, mở terminal và cài thư viện app nếu chưa có:
 
 ```powershell
-npm run install:app
+npm.cmd run install:app
 ```
 
 ## Chạy chương trình
@@ -22,7 +22,7 @@ Mở **hai terminal** tại thư mục gốc dự án (`D:\Tung\AppBanghe`).
 **Terminal 1 — chạy backend:**
 
 ```powershell
-npm run backend
+npm.cmd run backend
 ```
 
 Chờ xuất hiện `Started FurnitureApiApplication`.
@@ -30,7 +30,7 @@ Chờ xuất hiện `Started FurnitureApiApplication`.
 **Terminal 2 — chạy app Android:**
 
 ```powershell
-npm run dev
+npm.cmd run dev
 ```
 
 Lệnh tự bật máy ảo đầu tiên nếu chưa có máy ảo đang chạy, chờ Android khởi động rồi mở app bằng Expo Go. Giữ cả hai terminal mở trong lúc sử dụng.

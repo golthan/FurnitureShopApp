@@ -5,7 +5,9 @@
         "**/.metadata/**",
         "**/archetype-resources/**",
         "**/META-INF/maven/**",
+        "**/apache-maven-3.9.10",
         "**/apache-maven-3.9.10/**",
+        "**/apache-maven-3.9.10-bin",
         "**/apache-maven-3.9.10-bin/**"
     ]
 }
