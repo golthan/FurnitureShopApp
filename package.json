@@ -1,0 +1,11 @@
+{
+  "name": "furniture-shop-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Run the FurnitureShopApp backend and Android app from the project root.",
+  "scripts": {
+    "backend": "powershell.exe -NoProfile -ExecutionPolicy Bypass -File scripts/start-backend.ps1",
+    "dev": "powershell.exe -NoProfile -ExecutionPolicy Bypass -File scripts/start-android.ps1",
+    "install:app": "npm --prefix App-Main/furniture-app install"
+  }
+}

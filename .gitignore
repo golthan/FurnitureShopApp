@@ -1,0 +1,3 @@
+# Local development downloads and caches
+.local-tools/
+.npm-cache/

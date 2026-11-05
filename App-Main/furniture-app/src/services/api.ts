@@ -4,7 +4,7 @@ import { getToken } from '../utils/storage';
 import { callLogoutHandler } from '../contexts/AuthContext';
 import { Alert } from 'react-native';
 
-const API_BASE_URL = 'http://192.168.22.14:8080'; // Should be configurable
+const API_BASE_URL = 'http://10.0.2.2:8080'; // Android Emulator connects to the host computer here.
 
 const api = axios.create({
   baseURL: API_BASE_URL,
