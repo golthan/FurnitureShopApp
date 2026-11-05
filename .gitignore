@@ -2,6 +2,13 @@
 .local-tools/
 .npm-cache/
 
+# Generated dependencies, build output and local archives
+node_modules/
+target/
+.expo/
+.git_disabled/
+/FurnitureShopApp*.zip
+
 # Gradle files
 .gradle/
 build/
